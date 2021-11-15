@@ -1,0 +1,32 @@
+name: penguins
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ca-certificates=2021.10.8=h5b45459_0
+  - openssl=3.0.0=h8ffe710_2
+  - pip=21.3.1=pyhd8ed1ab_0
+  - python=3.7.12=h900ac77_100_cpython
+  - python_abi=3.7=2_cp37m
+  - setuptools=58.5.3=py37h03978a9_0
+  - sqlite=3.36.0=h8ffe710_2
+  - ucrt=10.0.20348.0=h57928b3_0
+  - vc=14.2=hb210afc_5
+  - vs2015_runtime=14.29.30037=h902a5da_5
+  - wheel=0.37.0=pyhd8ed1ab_1
+  - pip:
+    - click==8.0.3
+    - colorama==0.4.4
+    - flask==2.0.2
+    - flask-cors==3.0.10
+    - importlib-metadata==4.8.2
+    - itsdangerous==2.0.1
+    - jinja2==3.0.3
+    - markupsafe==2.0.1
+    - mysql-connector-python==8.0.27
+    - protobuf==3.19.1
+    - six==1.16.0
+    - typing-extensions==3.10.0.2
+    - werkzeug==2.0.2
+    - zipp==3.6.0
+prefix: C:\Users\ADMIN\.conda\envs\penguins

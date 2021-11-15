@@ -1,0 +1,63 @@
+/* purgecss start ignore */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+/* purgecss end ignore */
+@import 'tailwindcss/utilities';
+
+*,
+*:before,
+*:after {
+  @apply box-border m-0;
+}
+
+details {
+  font-size: 1rem;
+  width: 100%;
+  background: #ffffff;
+  position: relative;
+}
+details .summary-title {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+details:hover {
+  cursor: pointer;
+}
+details .summary-content {
+  border-top: 1px solid #e2e8f0;
+  cursor: default;
+  padding: 1em;
+  font-weight: 300;
+  line-height: 1.5;
+}
+details summary {
+  list-style: none;
+}
+details {
+}
+details summary:focus {
+  outline: none;
+}
+details summary:hover .summary-chevron-up svg {
+  opacity: 1;
+}
+details .summary-chevron-up svg {
+  opacity: 0.5;
+}
+details .summary-chevron-up,
+details .summary-chevron-down {
+  pointer-events: none;
+  position: absolute;
+  top: -0.25em;
+  right: 1em;
+  background: #ffffff;
+}
+details .summary-chevron-up svg,
+details .summary-chevron-down svg {
+  display: block;
+}
+details summary::-webkit-details-marker {
+  display: none;
+}

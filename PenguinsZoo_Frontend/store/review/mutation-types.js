@@ -1,0 +1,6 @@
+export const SET_REPORT = 'SET_REPORT'
+export const SET_COMPLETED = 'SET_COMPLETED'
+export const ADD_REPORT = 'ADD_REPORT'
+export const ADD_COMPLETED = 'ADD_COMPLETED'
+export const ADD_COUNT = 'ADD_COUNT'
+export const DELETE_REPORT = 'DELETE_REPORT'
